@@ -12,6 +12,8 @@ dist
 dist-ssr
 .env
 *.local
+db.json
+pacienteshardcodeados.txt
 
 # Editor directories and files
 .vscode/*

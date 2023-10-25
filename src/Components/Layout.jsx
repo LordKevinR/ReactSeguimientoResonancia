@@ -19,7 +19,12 @@ const Layout = () => {
                 to='/pacientes/nuevo'>Nuevo Paciente</Link>
 
                 <Link className={`text-2xl text-white block p-1 hover:scale-105 transition transform rounded-lg hover:bg-white hover:bg-opacity-25 hover:p-1`} 
-                to='/pacientes'>Buscar</Link>
+                to='/pacientes'>Buscador interno</Link>
+
+                <a
+                className={`text-2xl text-white block p-1 hover:scale-105 transition transform rounded-lg hover:bg-white hover:bg-opacity-25 hover:p-1`}
+                href="https://seguimientoresonanciabuscador.netlify.app/" target="_blank" >Buscador del Paciente</a>
+
 
             </nav>
         </aside>
